@@ -1,0 +1,136 @@
+.content {
+    display: flex;
+    height: 534px;
+    flex-direction: row;
+    align-items: center;
+    margin: 133px 30px;
+    gap: 30px;
+    min-width: 0;
+}
+
+.result {
+    width: 711px;
+    align-self: flex-end;
+}
+
+.content__details {
+    flex: 1;
+    height: 100%;
+    min-width: 0;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.search-form__fieldset-title {
+    margin: 0 0 8px 0;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.content__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content__list-container {
+    height: 298px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.result__video-container {
+    position: relative;
+    height: 386px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.result__video {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.content__video-card {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.content__video-card-thumbnail {
+    height: 103px;
+    min-width: 194px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content__video-card-description-container {
+    min-width: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.content__video-card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.content__video-card-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 90%;
+    color: #fff;
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 94%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.content__accent {
+    color: #545050;
+}
+
+.content__card-link {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+/*.content__card-link:hover,*/
+/*.content__card-link:focus {*/
+/*    text-decoration: underline;*/
+/*    color: #ccc;*/
+/*}*/
