@@ -17,6 +17,8 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
+  justify-content:center;
+  align-items: center;
 }
 
 h1,
@@ -63,10 +65,9 @@ ol {
 
 .content {
   display: flex;
-  height: 534px;
   flex-direction: row;
   align-items: center;
-  margin: 333px 30px;
+  margin: 10px 10px;
   gap: 30px;
   min-width: 0;
 }
@@ -135,8 +136,6 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-  font-family: inherit;
-  font-size: inherit;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -183,7 +182,6 @@ ol {
 
 .content__list-container {
   height: 298px;
-  overflow-x: hidden;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -202,6 +200,7 @@ ol {
   height: 100%;
   width: 100%;
   object-fit: fill;
+  object-position: center;
 }
 
 .content__video-card {
@@ -276,7 +275,7 @@ ol {
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   background-color: transparent;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -297,7 +296,6 @@ ol {
 
 .button:active {
   color: #545050;
-  border-color: #545050;
 }
 
 .search-form__submit-button {
